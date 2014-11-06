@@ -1,0 +1,16 @@
+Compile the .java files and then you can run the program with the following command:->
+
+java Mutation <PATH TO PATTERNS FILE>  <EXTENSION OF THE FILES THAT YOU WANT TO PROCESS>  <DIRECTORY CONATINING THE FILES OR FILENAME>
+
+for example:->
+===============
+
+1. (when foo is  directory):->
+===============================
+java Mutation   patterns.txt    jsp   home/user/Desktop/foo        
+
+OR 
+
+2. when foo is a file:->
+========================
+java Mutation   patterns.txt    jsp   home/user/Desktop/foo.jsp
